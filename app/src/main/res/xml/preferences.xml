@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="usuario_key"
+        android:title="Editar Usuario"
+        android:summary="Cambiar caraceristicas del usuario"
+        android:persistent="false">
+
+        <EditTextPreference
+            android:key="name"
+            android:title="Nombre"
+            android:summary="Escriba el nombre del usuario"
+            android:dialogTitle="User name"
+            android:defaultValue="@string/nombre"/>
+
+
+        <EditTextPreference
+            android:key="apPaterno"
+            android:title="Apellido Paterno"
+            android:summary="Escriba el apellido paterno del usuario"
+            android:dialogTitle="User name"
+            android:defaultValue="@string/paterno"/>
+
+
+        <EditTextPreference
+            android:key="apMaterno"
+            android:title="Apellido Materno"
+            android:summary="Escriba el apellido materno del usuario"
+            android:dialogTitle="User name"
+            android:defaultValue="@string/materno"/>
+
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

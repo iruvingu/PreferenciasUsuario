@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Preferencias Usuario</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="paterno">PATERNO</string>
+    <string name="materno">MATERNO</string>
+</resources>
